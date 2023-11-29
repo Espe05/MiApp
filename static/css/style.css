@@ -28,7 +28,7 @@ a:focus {
 
 .navbar {
     padding: 15px 10px;
-    background: #fff;
+    background: #1b4091;
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
@@ -58,7 +58,7 @@ a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #394867;
+    background: #27b193;
     color: #fff;
     transition: all 0.3s;
     height: 100vh;
