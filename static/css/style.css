@@ -28,7 +28,7 @@ a:focus {
 
 .navbar {
     padding: 15px 10px;
-    background: #1b4091;
+    background: #1b4091; /* No sirve */
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
@@ -58,8 +58,8 @@ a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #9deee3;
-    color: #fff;
+    background: #9deee3; /* Color Fondo de abajo App Fondos Mutuos */
+    color: #ffffff; /* Color App Fondos Mutuos */
     transition: all 0.3s;
     height: 100vh;
 }
@@ -70,16 +70,16 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: rgb(15, 165, 152);
+    background: rgb(15, 165, 152); /* Color fondo arriba App Fondos Mutuos */
 }
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #475877;
+    border-bottom: 1px solid #9deee3; /* Rayita TOC */
 }
 
 #sidebar ul p {
-    color: #fff;
+    color: #fff; /* No sirve pa na */
     padding: 10px;
 }
 
@@ -90,14 +90,14 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: #007BFF;
-    background: #fff;
+    color: rgb(15, 165, 152); /* Transformación2 letras laterales */ 
+    background: rgb(236, 165, 250); /* Color apretado */
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
-    color: #fff;
-    background: #29354E;
+    color: #fff; /* No sirve pa na */
+    background: #29354E; /* No sirve pa na */
 }
 
 a[data-toggle="collapse"] {
@@ -115,7 +115,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #29354E;
+    background: #29354E; /* No sirve pa na */
 }
 
 ul.CTAs {
@@ -132,12 +132,12 @@ ul.CTAs a {
 
 a.download {
     background: #fff;
-    color: #007BFF;
+    color: #007BFF; /* No sirve pa na */
 }
 
 a.article,
 a.article:hover {
-    background: #29354E !important;
+    background: #4e4d29 !important; /* No sirve pa na */
     color: #fff !important;
 }
 
@@ -194,7 +194,7 @@ th, td {
 }
 
 th {
-    background-color: #394867;
+    background-color: rgb(15, 165, 152); /* Color fondo tabla columnas */
     color: #fff;
 }
 
@@ -370,5 +370,5 @@ label{
 }
 
 .asidebar {
-    color: #ddd;
+    color: rgb(15, 165, 152); /* Letras antes de la transformación */
 }
