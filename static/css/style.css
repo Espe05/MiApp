@@ -262,7 +262,7 @@ tr:hover {
 .ui-datepicker-prev {
     order: -1;
     width: 20%;
-    background-color: #3498db; /* no pasa na */
+    background-color: rgb(236, 165, 250); /* no pasa na */
     border: 1px solid #2c81b9;
     color: #fff;
     font-size: 14px;
@@ -273,7 +273,7 @@ tr:hover {
 .ui-datepicker-next {
     order: 0;
     width: 20%;
-    background-color: #3498db;
+    background-color: rgb(236, 165, 250);
     border: 1px solid #2980b9;
     color: #fff;
     font-size: 14px;
@@ -282,7 +282,7 @@ tr:hover {
 
 /* Estilo adicional para los botones "prev" y "next" al pasar el ratón sobre ellos */
 .ui-datepicker-prev:hover, .ui-datepicker-next:hover {
-    background-color: #2980b9;
+    background-color: rgb(15, 165, 152);
 }
 
 /* Estilo para la fecha activa */
@@ -296,7 +296,7 @@ tr:hover {
 /* Botones */
 /* Estilo para el botón Obtener Rentabilidades */
 .boton {
-    background-color: #007BFF;
+    background-color: rgb(236, 165, 250);
     color: #fff;
     height: 30px;
     padding: 10px 20px;
@@ -310,7 +310,7 @@ tr:hover {
 
 /* Cambio de color al pasar el ratón sobre el botón */
 .boton:hover {
-    background-color: #0056b3;
+    background-color: rgb(15, 165, 152);
 }
 
 /* Estilo para los enlaces */
